@@ -23,7 +23,7 @@ To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com)
 ## Usage
 
 ```tsx
-import { Coverflow, Images } from "react-coverfl0w";
+import Coverflow, { Images } from "react-coverfl0w";
 
 const IMAGES: Images[] = [
   {
