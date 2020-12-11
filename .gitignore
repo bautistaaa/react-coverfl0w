@@ -103,5 +103,5 @@ dist
 # TernJS port file
 .tern-port
 
-rollup.config.js*
+rollup.config.js.map
 .DS_Store
