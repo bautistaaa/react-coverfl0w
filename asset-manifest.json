@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/react-coverfl0w/static/css/main.0e8fc117.chunk.css",
+    "main.js": "/react-coverfl0w/static/js/main.d9f4f091.chunk.js",
+    "main.js.map": "/react-coverfl0w/static/js/main.d9f4f091.chunk.js.map",
+    "runtime-main.js": "/react-coverfl0w/static/js/runtime-main.3f9f5c8c.js",
+    "runtime-main.js.map": "/react-coverfl0w/static/js/runtime-main.3f9f5c8c.js.map",
+    "static/js/2.f97e9d7c.chunk.js": "/react-coverfl0w/static/js/2.f97e9d7c.chunk.js",
+    "static/js/2.f97e9d7c.chunk.js.map": "/react-coverfl0w/static/js/2.f97e9d7c.chunk.js.map",
+    "static/js/3.45166f7c.chunk.js": "/react-coverfl0w/static/js/3.45166f7c.chunk.js",
+    "static/js/3.45166f7c.chunk.js.map": "/react-coverfl0w/static/js/3.45166f7c.chunk.js.map",
+    "index.html": "/react-coverfl0w/index.html",
+    "static/css/main.0e8fc117.chunk.css.map": "/react-coverfl0w/static/css/main.0e8fc117.chunk.css.map",
+    "static/js/2.f97e9d7c.chunk.js.LICENSE.txt": "/react-coverfl0w/static/js/2.f97e9d7c.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.3f9f5c8c.js",
+    "static/js/2.f97e9d7c.chunk.js",
+    "static/css/main.0e8fc117.chunk.css",
+    "static/js/main.d9f4f091.chunk.js"
+  ]
+}
