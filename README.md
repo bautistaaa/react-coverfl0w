@@ -3,6 +3,8 @@ React Coverfl0w
 [![npm version](https://badge.fury.io/js/react-coverfl0w.svg)](http://badge.fury.io/js/react-coverfl0w)
 ![gzip size](https://img.badgesize.io/https:/unpkg.com/react-coverfl0w?compression=gzip)
 
+![](https://i.imgur.com/07Bbxbe.png)
+
 ## Installation
 
 To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com):
