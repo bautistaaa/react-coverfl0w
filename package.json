@@ -6,6 +6,7 @@
   "files": [
     "dist"
   ],
+  "typings": "dist/index.d.ts",
   "dependencies": {},
   "devDependencies": {
     "@types/react": "^17.0.0",

@@ -3,7 +3,7 @@ import React, { FC, useEffect, useLayoutEffect, useMemo, useRef, useState } from
 import useTouchEvent from './hooks/useTouchEvent';
 import useKeyPress from './hooks/useKeyPress';
 import useWindowSize from './hooks/useWindowSize';
-import { OPACITY_ORDER, ROTATE, SCALE_ORDER } from './utils/constants';
+import { OPACITY_ORDER, ROTATION, SCALE_ORDER } from './utils/constants';
 import { PromiseRejection, PromiseResolution } from './utils/allSettled';
 import clamp from './utils/clamp';
 import fetchImages from './utils/fetchImages';
@@ -19,7 +19,7 @@ const isPromiseResolution = <T extends unknown>(
 };
 
 const Coverflow: FC<CoverflowProps> = props => {
-  const { className, images, slidesPerSide, opacityInterval = OPACITY_ORDER, scaleInterval = SCALE_ORDER } = props;
+  const { className, images, slidesPerSide, rotation = ROTATION, opacityInterval = OPACITY_ORDER, scaleInterval = SCALE_ORDER } = props;
   /**
    * Sliders per side
    */
@@ -121,7 +121,7 @@ const Coverflow: FC<CoverflowProps> = props => {
       const imageDimension = resizeImage(coverflowHeight, coverflowWidth, image.image);
       const scaledWidth = imageDimension.width * scale;
       leftEdgeList.push(edge);
-      const rotate = index > currentIndex ? -ROTATE : index === currentIndex ? 0 : ROTATE;
+      const rotate = index > currentIndex ? -rotation : index === currentIndex ? 0 : rotation;
       const zIndex = 100 - absDistanceFromMiddle;
       const opacity = opacityIntervalOverride[clamp(absDistanceFromMiddle, 0, opacityIntervalOverride.length - 1)];
       const isVisible =
