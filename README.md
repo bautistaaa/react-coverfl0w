@@ -51,4 +51,4 @@ function App() {
 ```
 ## Demos
 
-* [Placeholder](placeholder)
+* [Basic Demo](https://bautistaaa.github.io/react-coverfl0w/index.html)
