@@ -16,7 +16,7 @@ To install, you can use [npm](https://npmjs.org/) or [yarn](https://yarnpkg.com)
 | images               | Image[]   |                                         | Array of Images {src, href, alt}                        |
 | className            | string    |                                         | Add css class to the coverflow for customization        |
 | slidesPerSide        | number    |                                         | Number of images displayed on either side of the center |
-| roation              | number    | 45                                      | Rotation in degrees for inactive images                 |
+| rotation              | number    | 45                                      | Rotation in degrees for inactive images                 |
 | opacityInterval      | boolean   | [1, 0.8, 0.5, 0.2]                      | Define how you want images to "fade" out on the side    |
 | scaleInterval        | boolean   | [1, 0.7, 0.6, 0.5, 0.4, 0.3, 0.2, 0.1]  | Define how you want images to scale down in size        |
 
