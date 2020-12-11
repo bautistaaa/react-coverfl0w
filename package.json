@@ -9,6 +9,7 @@
   "typings": "dist/index.d.ts",
   "dependencies": {},
   "devDependencies": {
+    "@types/node": "^14.14.12",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
     "babel-core": "^6.26.3",
