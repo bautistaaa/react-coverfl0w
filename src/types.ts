@@ -7,6 +7,7 @@ export interface CoverflowProps {
   className?: string;
   images: Images[];
   slidesPerSide?: number;
+  rotation?: number;
   opacityInterval?: number[];
   scaleInterval?: number[];
 }
